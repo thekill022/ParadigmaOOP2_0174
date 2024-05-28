@@ -11,6 +11,14 @@ public:
     }
 };
 
+//pembuatan class pekerja sebagai pewaris dari class orang dan pembuatan prosedur untuk memberi nilai dan display data umur
+class pekerja : virtual public orang {
+public:
+    pekerja(int pUmur) : orang(pUmur) {
+        cout << "Pekerja dibuat" << endl;
+    }
+};
+
 int main()
 {
     
