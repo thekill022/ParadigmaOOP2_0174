@@ -16,6 +16,11 @@ public:
 };
 
 
+//membuat class joko sebagai pewaris dari class seseorang
+class joko : public seseorang {
+
+};
+
 int main() {
 
 }
