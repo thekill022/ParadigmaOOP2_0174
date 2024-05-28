@@ -30,7 +30,12 @@ public:
 
 //membuat class lia sebagai pewaris dari class seseorang
 class lia : public seseorang {
-
+public:
+    //deklarasi
+    void pesan() {
+        //implementasi
+        cout << "pesan dari lia" << endl;
+    }
 };
 
 int main() {
