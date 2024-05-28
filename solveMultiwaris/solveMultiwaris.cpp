@@ -26,6 +26,16 @@ public:
     }
 };
 
+//pembuatan dan pendefinisian class budi serta member sebagai solvemultiwaris dari class pekerja dan pelajar
+class budi : public pekerja, public pelajar {
+public:
+    budi(int pUmur) :
+        pekerja(pUmur),
+        pelajar(pUmur)
+    {
+        cout << "Budi dibuat\n" << endl;
+    }
+};
 
 int main()
 {
