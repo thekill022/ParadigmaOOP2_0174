@@ -23,5 +23,7 @@ public:
 
 int main()
 {
+	//deklarasi objek variabel lampuRumah
+	remoteLampu lampuRumah;
    
 }
