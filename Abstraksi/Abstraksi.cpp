@@ -25,5 +25,8 @@ public:
 
 int main()
 {
+    //deklarasi obyek variabel ak
+    abstraksi ak;
+    
     
 }
