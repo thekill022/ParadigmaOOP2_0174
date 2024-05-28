@@ -26,7 +26,10 @@ public:
         //implementasi
         cout << "pesan dari joko" << endl;
     }
+};
 
+//membuat class lia sebagai pewaris dari class seseorang
+class lia : public seseorang {
 
 };
 
