@@ -19,6 +19,15 @@ public:
 //membuat class joko sebagai pewaris dari class seseorang
 class joko : public seseorang {
 
+
+public:
+    //deklarasi
+    void pesan() {
+        //implementasi
+        cout << "pesan dari joko" << endl;
+    }
+
+
 };
 
 int main() {
