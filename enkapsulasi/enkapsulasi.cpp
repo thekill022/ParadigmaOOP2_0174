@@ -13,6 +13,12 @@ public:
 	void setSaklarNo(int i, string value) {
 		saklarNo[i] = value;
 	}
+
+	//membuat function getSaklarNo untuk menampilkan nilai index pada array saklarNo
+	string getSaklarNo(int i) {
+		return saklarNo[i];
+	}
+
 };
 
 int main()
