@@ -27,6 +27,30 @@ public:
     }
 };
 
+//pembuatan dan pendefinisian class budi serta member sebagai multiwaris dari class pekerja dan pelajar
+class budi : public pekerja, public pelajar {
+public:
+    budi(int pUmur) :
+        orang(pUmur),
+        pekerja(pUmur),
+        pelajar(pUmur)
+    {
+        cout << "Budi dibuat" << endl;
+    }
+};
+
+//pembuatan dan pendefinisian class budi serta member sebagai multiwaris dari class pekerja dan pelajar
+class budi : public pekerja, public pelajar {
+public:
+    budi(int pUmur) :
+        orang(pUmur),
+        pekerja(pUmur),
+        pelajar(pUmur)
+    {
+        cout << "Budi dibuat" << endl;
+    }
+};
+
 int main()
 {
     
