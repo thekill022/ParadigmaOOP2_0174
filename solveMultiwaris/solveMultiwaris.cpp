@@ -40,4 +40,9 @@ public:
 int main()
 {
     
+    //deklarasi dan pemberian nilai pada objek a
+    budi a(12);
+
+    return 0;
+
 }
