@@ -38,6 +38,12 @@ public:
     }
 };
 
+
 int main() {
+    //deklarasi objek variabel dari class seseorang, joko, dan lia
+    seseorang* obyek;
+    joko a;
+    lia b;
+
 
 }
