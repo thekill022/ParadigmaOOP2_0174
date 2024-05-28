@@ -27,6 +27,10 @@ int main()
 {
     //deklarasi obyek variabel ak
     abstraksi ak;
-    
+    //pemanggilan dan pemberian nilai pada prosedur - prosedur class abstraksi
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+
+    return 0;
     
 }
